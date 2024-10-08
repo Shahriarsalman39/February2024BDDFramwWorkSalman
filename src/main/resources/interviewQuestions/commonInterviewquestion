@@ -1,0 +1,39 @@
+1. how do you implements inheritance in yout framework?
+   i have a base Test
+   where i writw all common codes such as
+      open application
+      close application
+      take screenshot
+   all the others child class such as
+      login test
+     registration test
+      extends the base test 
+   
+   this is how i implements inheritance in my framework.
+   
+   
+   
+   
+  2. how do u implements page object model in your framework
+    in my framework i have pages package such as 
+        com.facebookpages 
+  and i have test package such as
+        com.facebookTests
+   all the classes in the com.facebookpages are written in 
+        a. page model object style
+        b. findBy By anotaiton
+        c. initElements class
+   all the classes in the com.facebookTests are written in
+        Junit style or TestNG style
+        this is how i implement page object model
+     
+     
+        
+   3. How do u write or read utilities in your framework?
+      In my utilities class i used
+      a. java Properties class to load and read  and write
+      b.  java FileInputStream for handaling file system such as
+          create folder
+          find the file path
+      
+   
